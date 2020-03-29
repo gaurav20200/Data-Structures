@@ -1,3 +1,4 @@
+//factorial of large number can be calculated by this program by use of basic multiplication using array//
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
