@@ -37,7 +37,7 @@ void update(int si, int ss, int se, int qi)
         return;
     }
     int mid = (ss + se) / 2;
-    if (qi < mid)
+    if (qi <= mid)
         update(2 * si, ss, mid, qi);
     else
         update(2 * si + 1, mid + 1, se, qi);
